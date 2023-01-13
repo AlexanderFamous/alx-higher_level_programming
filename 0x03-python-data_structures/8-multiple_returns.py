@@ -2,8 +2,9 @@
 def multiple_returns(sentence):
     tup1 = ()
     tup2 = ()
+    length = len(sentence)
     for i in sentence:
-        if len(sentence) == 0:
+        if length == 0:
             tup2 = None
         else:
             tup1 = len(sentence)
